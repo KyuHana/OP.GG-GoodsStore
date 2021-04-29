@@ -19,7 +19,7 @@ const main = async () => {
     type: "mysql",
     database: "GraphqlCRUD",
     username: "root",
-    password: "",
+    password: "tn74467446@",
     logging: true,
     synchronize: false,
     entities: [Users]
