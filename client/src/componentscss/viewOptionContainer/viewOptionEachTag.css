@@ -1,0 +1,25 @@
+.viewOptionEachTagContainer.bbba {
+  min-width: 60px;
+  max-width: 140px;
+  min-height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "notoSansBold";
+}
+.viewOptionEachTagContainer {
+  min-width: 60px;
+  max-width: 100px;
+  min-height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "notoSansBold";
+}
+
+.viewOptionEachTagContainer__tagName {
+  color: rgb(83, 132, 232);
+}
+.viewOptionEachTagContainer__tagName.bbba {
+  color: rgb(83, 132, 232);
+}

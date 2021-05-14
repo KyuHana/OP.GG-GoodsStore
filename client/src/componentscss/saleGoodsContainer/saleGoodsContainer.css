@@ -1,0 +1,103 @@
+.saleGoodsContainer {
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.saleGoodsContainer__image {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+}
+
+.saleGoodsContainer__desc {
+  display: flex;
+  margin-top: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  min-height: 200px;
+}
+
+.wrapSaleGoodsContainerTitle {
+  flex: 6;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapSaleGoodsContainerIcon {
+  flex: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.saleGoodsContainer__desc_title {
+  font-size: 26px;
+  font-family: "notoSansBold";
+  color: rgba(0, 0, 0, 0.4);
+  flex: 1.2;
+}
+
+.saleGoodsContainer__desc_subTitle {
+  font-size: 28px;
+  font-family: "notoSansMedium";
+  max-height: 50px;
+  flex: 1;
+}
+
+.saleGoodsContainer__desc_goodsPrice {
+  font-size: 26px;
+  font-family: "notoSansBold";
+  max-height: 64px;
+  color: rgb(83, 132, 232);
+  flex: 1;
+}
+
+.heartIcon {
+  color: rgba(0, 0, 0, 0.1);
+  font-size: 50px;
+}
+
+.heartIcon:hover {
+  color: red;
+}
+
+.shareIcon {
+  color: rgb(83, 132, 232);
+  font-size: 50px;
+}
+
+.wrapSaleGoodsContainerIcon__heart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.wrapSaleGoodsContainerIcon__share {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.clickPurchaseBar {
+  width: 640px;
+  height: 60px;
+  position: fixed;
+  bottom: 0;
+  background-color: rgb(83, 132, 232);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.clickPurchaseBar > h1 {
+  font-family: "notoSansBold";
+  color: white;
+}

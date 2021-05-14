@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.wholeHomeContainer {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  overflow-y: scroll;
+  position: relative;
+}
+.homeContainer {
+  width: 640px;
+  height: 100vh;
+}
+
+.homeContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.showMoreBar {
+  width: 0px;
+  height: 100vh;
+  right: 0px;
+  transform: translateX(310px);
+  transition: all 1s ease;
+  position: fixed;
+  background-color: rgb(83, 132, 232);
+  color: white;
+  right: 0;
+  visibility: hidden;
+}
+
+.showMoreBar.click {
+  visibility: visible;
+  width: 300px;
+  height: 100vh;
+  transform: translateX(0px);
+}

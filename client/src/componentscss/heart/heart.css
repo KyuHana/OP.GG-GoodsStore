@@ -1,0 +1,128 @@
+.heartContainer {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  transition: all 1s ease-in-out;
+}
+
+.heartContainer > .heartContainer_bar1 {
+  border: 1px solid black;
+  height: 4px;
+  position: absolute;
+  left: 4px;
+  top: 10px;
+  transition: all 1s ease-in-out;
+}
+
+.heartContainer > .heartContainer_bar2 {
+  border: 1px solid black;
+  height: 7px;
+  position: absolute;
+  left: 4px;
+  top: 18px;
+  transform: rotate(-45deg) translateX(5px);
+  transition: all 1s ease-in-out;
+}
+
+.heartContainer > .heartContainer_bar3 {
+  border: 1px solid rgb(83, 132, 232);
+  height: 4px;
+  position: absolute;
+  left: 16px;
+  top: 4px;
+  transform: rotate(45deg) translate(2px, 3px);
+  transition: all 1s ease-in-out;
+}
+
+.heartContainer > .heartContainer_bar4 {
+  border: 1px solid rgb(83, 132, 232);
+  height: 4px;
+  position: absolute;
+  left: 8px;
+  top: 4px;
+  transform: rotate(-45deg) translate(-2px, 3px);
+  transition: all 1s ease-in-out;
+}
+
+.heartContainer > .heartContainer_bar5 {
+  border: 1px solid red;
+  height: 4px;
+  position: absolute;
+  right: 8px;
+  top: 10px;
+  transition: all 1s ease-in-out;
+}
+
+.heartContainer > .heartContainer_bar6 {
+  border: 1px solid rgb(83, 132, 232);
+  height: 7px;
+  position: absolute;
+  right: 8px;
+  top: 18px;
+  transform: rotate(45deg) translateX(-5px);
+  transition: all 1s ease-in-out;
+}
+
+/* 하트가 눌려졌을때 */
+
+.heartContainer.click {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  transition: all 1s ease-in-out;
+}
+
+.heartContainer.click > .heartContainer_bar1 {
+  border: 1px solid red;
+  height: 4px;
+  position: absolute;
+  left: 4px;
+  top: 10px;
+  transition: all 1s ease-in-out;
+}
+
+.heartContainer.click > .heartContainer_bar2 {
+  border: 1px solid red;
+  height: 7px;
+  position: absolute;
+  left: 4px;
+  top: 18px;
+  transform: rotate(-45deg) translateX(5px);
+}
+
+.heartContainer.click > .heartContainer_bar3 {
+  border: 1px solid red;
+  height: 4px;
+  position: absolute;
+  left: 16px;
+  top: 4px;
+  transform: rotate(45deg) translate(2px, 3px);
+}
+
+.heartContainer.click > .heartContainer_bar4 {
+  border: 1px solid red;
+  height: 4px;
+  position: absolute;
+  left: 8px;
+  top: 4px;
+  transform: rotate(-45deg) translate(-2px, 3px);
+}
+
+.heartContainer.click > .heartContainer_bar5 {
+  border: 1px solid red;
+  height: 4px;
+  position: absolute;
+  right: 8px;
+  top: 10px;
+}
+
+.heartContainer.click > .heartContainer_bar6 {
+  border: 1px solid red;
+  height: 7px;
+  position: absolute;
+  right: 8px;
+  top: 18px;
+  transform: rotate(45deg) translateX(-5px);
+}

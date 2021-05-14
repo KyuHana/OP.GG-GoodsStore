@@ -1,0 +1,48 @@
+.endIntroContainer {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.mainIntroCon__title {
+  color: rgb(83, 132, 232);
+}
+
+.mainIntroCon > span {
+  font-family: "notoSansBold";
+  color: white;
+}
+
+.mainIntroCon__desc {
+  font-family: "notoSansBold";
+  color: black;
+  font-size: 18px;
+  display: flex;
+  margin-top: 20px;
+}
+
+.mainIntroCon__desc_inDiv {
+  width: 44%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.mainIntroCon__desc_inDiv:hover {
+  width: 44%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: white;
+  color: rgb(83, 132, 232);
+}
+
+.joinContainer > span {
+  font-family: "notoSansBold";
+  color: rgb(0, 0, 0, 0.6);
+  font-size: 18px;
+}

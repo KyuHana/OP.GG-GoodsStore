@@ -1,0 +1,50 @@
+.showMoreNavBar {
+  min-width: 300px;
+  height: 100vh;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+  position: fixed;
+  border: 1px solid;
+}
+
+.showMoreNavBar > .wrapBox {
+  padding: 20px;
+}
+
+.showMoreNavBar > .showMoreNavBar__EachContainer {
+  min-width: 100%;
+  height: 40px;
+}
+
+.showMoreNavBar > .showMoreNavBar__viewGoodsType {
+  position: absolute;
+  bottom: 0;
+  min-width: 100%;
+  height: 440px;
+  transform: translateY(440px);
+  transition: transform 1s ease;
+  background-color: white;
+  color: rgb(83, 132, 232);
+}
+
+.showMoreNavBar > .showMoreNavBar__viewGoodsType.click {
+  min-width: 100%;
+  transform: translateY(0px);
+}
+
+.showMoreNavBar > .showMoreNavBar__viewGoodsType ul li {
+  list-style: none;
+  font-family: "notoSansBold";
+}
+
+.showMoreNavBar > .showMoreNavBar__customerContainer {
+  position: absolute;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100px;
+  clear: both;
+  padding: 0;
+}

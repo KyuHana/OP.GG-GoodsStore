@@ -1,0 +1,30 @@
+.filterContainer {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  margin-top: 8px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.filterContainer > div {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.filterContainer__eachCoverName {
+  font-family: "notoSansBold";
+  font-size: 24px;
+  font-weight: 900;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.filterContainer__eachCoverName.showBottomBorder {
+  font-family: "notoSansBold";
+  font-size: 24px;
+  font-weight: 900;
+  border-bottom: 5px solid rgb(83, 132, 232);
+}

@@ -1,0 +1,25 @@
+.viewOptionContainer {
+  width: 100%;
+  height: 440px;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 0px;
+}
+
+.viewOptionContainer__nav {
+  height: 40px;
+}
+
+.viewOptionContainer__ul {
+  display: flex;
+}
+
+.viewOptionContainer__showCategoryGoods {
+  width: 100%;
+  height: 400px;
+  overflow-x: scroll;
+  border: 1px solid;
+}

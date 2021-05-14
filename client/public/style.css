@@ -1,0 +1,30 @@
+body {
+  position: relative;
+  border: 1px solid;
+}
+body > #popupBuy {
+  display: none;
+}
+
+body.asdf {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+body.asdf > #popupBuy {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body.asdf > #popupBuy > .popupBuy_screen {
+  width: 640px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}

@@ -1,0 +1,131 @@
+.goodsEachContainer {
+  min-width: 320px;
+  max-width: 320px;
+  min-height: 360px;
+  max-height: 360px;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.goodsEachContainer > .goodsEachContainer__inDiv {
+  width: 100%;
+  height: 320px;
+}
+
+.goodsEachContainer
+  > .goodsEachContainer__inDiv
+  > .goodsEachContainer__imgContainer {
+  width: 100%;
+  height: 260px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.goodsEachContainer
+  > .goodsEachContainer__inDiv
+  > .goodsEachContainer__DetailOption {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 80px;
+  flex-direction: column;
+  position: relative;
+}
+
+.goodsEachContainer
+  > .goodsEachContainer__inDiv
+  > .goodsEachContainer__DetailOption
+  > .wrapDiv {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  font-family: "notoSansLight";
+  color: black;
+  position: relative;
+}
+
+.goodsEachContainer__DetailOption_clickTag {
+  position: absolute;
+  top: 0;
+}
+
+.goodsEachContainer__DetailOption_clickTag > span {
+  color: rgb(83, 132, 232);
+  font-family: "notoSansBold";
+  font-size: 14px;
+}
+
+.goodsEachContainer
+  > .goodsEachContainer__inDiv
+  > .goodsEachContainer__DetailOption
+  > .wrapDiv
+  > .goodsEachContainer__DetailOption_showTag {
+  flex: 2;
+  overflow: hidden;
+}
+
+.goodsEachContainer
+  > .goodsEachContainer__inDiv
+  > .goodsEachContainer__DetailOption
+  > .wrapDiv
+  > .goodsEachContainer__DetailOption_showTag
+  > .goodsEachContainer__DetailOption_showTagTitle {
+  box-sizing: border-box;
+  white-space: nowrap;
+  font-family: "notoSansBold";
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.goodsEachContainer
+  > .goodsEachContainer__inDiv
+  > .goodsEachContainer__DetailOption
+  > .wrapDiv
+  > .goodsEachContainer__DetailOption_showTag
+  > .goodsEachContainer__DetailOption_showTagOption {
+  display: flex;
+}
+
+.goodsEachContainer
+  > .goodsEachContainer__inDiv
+  > .goodsEachContainer__DetailOption
+  > .wrapDiv
+  > .goodsEachContainer__DetailOption_showTag
+  > .goodsEachContainer__DetailOption_showTagOption
+  > .goodsEachContainer__DetailOption_showTagOption_price {
+  flex: 9;
+  display: flex;
+  align-items: center;
+  font-family: "notoSansBold";
+  color: rgba(0, 0, 0, 0.4);
+  margin-left: 10px;
+}
+
+.goodsEachContainer
+  > .goodsEachContainer__inDiv
+  > .goodsEachContainer__DetailOption
+  > .wrapDiv
+  > .goodsEachContainer__DetailOption_showTag
+  > .goodsEachContainer__DetailOption_showTagOption
+  > .goodsEachContainer__DetailOption_heartIconContainer {
+  flex: 1;
+}
+
+.goodsEachContainer
+  > .goodsEachContainer__inDiv
+  > .goodsEachContainer__DetailOption
+  > .wrapDiv
+  > .goodsEachContainer__DetailOption_clickButton {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(83, 132, 232);
+  font-family: "notoSansBold";
+}
+
+.myparagra {
+  border: 1px solid;
+}
